@@ -1,0 +1,293 @@
+    1  фев 28 12:55:38 passwd root
+    2  фев 28 12:58:06 adduser erha
+    3  фев 28 12:59:02 usermod -aG sudo erha
+    4  фев 28 12:59:13 apt update
+    5  фев 28 12:59:33 apt upgrade
+    6  фев 28 13:04:50 dpkg-reconfigure locales 
+    7  фев 28 13:06:16 dpkg-reconfigure tzdata 
+    8  фев 28 13:06:34 apt install mc net-tools
+    9  фев 28 13:06:47 ifconfig 
+   10  фев 28 13:06:49 mc
+   11  фев 28 13:07:42 reboot
+   12  фев 28 13:09:51 mc
+   13  мар 01 08:13:56 last
+   14  мар 02 12:53:17 apt update
+   15  мар 02 12:53:37 apt install apache2 curl mysql-server mysql-client php libapache2-mod-php php-mysql php-cli
+   16  мар 02 09:37:38 ifconfig 
+   17  мар 02 09:37:43 mii-tool ens3
+   18  мар 02 09:38:22 ip addr
+   19  мар 02 09:38:58 ip link 
+   20  мар 02 09:40:03 apt install ethtool
+   21  мар 02 09:40:11 ethtool ens3
+   22  мар 02 09:43:39 cat /sys/class/net/ens3/speed 
+   23  мар 02 10:36:52 last
+   24  мар 02 10:37:59 htop
+   25  мар 02 10:38:04 apt install htop
+   26  мар 02 10:38:10 htop
+   27  мар 02 10:49:51 last
+   28  мар 02 12:33:11 ifconfig 
+   29  мар 02 12:53:22 htop
+   30  мар 02 22:53:02 chown -R www-data:www-data /var/www/html/tsite1ru
+   31  мар 02 22:53:16 sudo chown -R www-data:www-data /var/www/html/tsite1ru
+   32  мар 02 22:53:45 ls
+   33  мар 02 22:54:05 lsblk_raw
+   34  мар 02 22:54:11 cd  lsblk_raw
+   35  мар 02 22:54:20 ls
+   36  мар 02 22:54:27 cd lsblk_raw
+   37  мар 02 22:54:32 dir
+   38  мар 02 22:54:44 cd var
+   39  мар 02 22:55:15 ls -la
+   40  мар 02 22:57:21 mkdir /var/www/html/tsite1ru
+   41  мар 02 22:57:25 ls
+   42  мар 02 22:57:29 ls -la
+   43  мар 02 22:58:12 cd..
+   44  мар 02 22:58:14 cd ..
+   45  мар 02 22:58:27 ls -la
+   46  мар 02 22:59:13 chown -R www-data:www-data /var/www/html/tsite2ru
+   47  мар 02 22:59:29 cd var
+   48  мар 02 22:59:45 ls -la
+   49  мар 02 22:59:54 cd www
+   50  мар 02 23:00:00 ls -la
+   51  мар 02 23:00:05 cd html
+   52  мар 02 23:00:14 ls -la
+   53  мар 02 23:00:46 mkdir tsite2ru
+   54  мар 02 23:00:57 mkdir tsite1ru
+   55  мар 02 23:01:11 cd tsite1ru
+   56  мар 02 23:01:14 ls -la
+   57  мар 02 23:01:46 touch index.html
+   58  мар 02 23:01:56 nano index.html
+   59  мар 02 23:02:22 ls -la
+   60  мар 02 23:02:29 nano index.html
+   61  мар 02 23:02:34 cat index.html
+   62  мар 02 23:02:40 cd ..
+   63  мар 02 23:02:49 tsite2ru
+   64  мар 02 23:02:56 cd tsite2ru
+   65  мар 02 23:02:58 ls -la
+   66  мар 02 23:03:05 nano index.html
+   67  мар 02 23:04:09 ls -la
+   68  мар 02 23:04:15 nano index.html
+   69  мар 02 23:04:25 nani index.html
+   70  мар 02 23:04:34 nanj index.html
+   71  мар 02 23:04:38 nano index.html
+   72  мар 02 23:04:56 ls -la
+   73  мар 02 23:05:48 rm .index.html.swp
+   74  мар 02 23:05:50 ls -la
+   75  мар 02 23:06:09 touch index.html
+   76  мар 02 23:06:12 ls -la
+   77  мар 02 23:06:20 nano index.html
+   78  мар 02 23:07:10 la -la
+   79  мар 02 23:07:17 cat index.html
+   80  мар 02 23:07:53 vi index.html
+   81  мар 02 23:08:37 cat index.html
+   82  мар 02 23:08:45 vi index.html
+   83  мар 03 07:37:22 last
+   84  мар 03 07:37:34 iptables -L
+   85  мар 03 07:37:38 history 
+   86  мар 03 07:42:37 ьс
+   87  мар 03 07:42:38 mc
+   88  мар 06 17:56:14 chown -R www-data:www-data /var/www/html/tsite1ru
+   89  мар 06 17:56:18 chown -R www-data:www-data /var/www/html/tsite2ru
+   90  мар 06 17:56:22 chmod -R 755 /var/www/html/tsite1ru
+   91  мар 06 17:56:35 chmod -R 755 /var/www/html/tsite2ru
+   92  мар 06 17:56:56 ды -дф
+   93  мар 06 17:56:58 ls -la
+   94  мар 06 17:57:18 mkdir /etc/apache2/sites-available
+   95  мар 06 17:58:13 mc
+   96  мар 06 17:59:37 exit
+   97  мар 06 18:02:13 mv /var/www/html/tsite2ru /var/www/html/erha2
+   98  мар 06 18:10:48 cd /var
+   99  мар 06 18:10:58 cd/ver/html/erha1
+  100  мар 06 18:11:20 cd html
+  101  мар 06 18:11:31 ls -la
+  102  мар 06 18:11:49 cd www
+  103  мар 06 18:11:53 /cd html
+  104  мар 06 18:11:58 cd /html
+  105  мар 06 18:12:07 cd html
+  106  мар 06 18:12:12 ls -la
+  107  мар 06 18:12:18 cd erha1
+  108  мар 06 18:12:20 ls -la
+  109  мар 06 18:12:30 cd ..
+  110  мар 06 18:12:33 cd ../..
+  111  мар 06 18:12:37 cd ..
+  112  мар 06 18:13:02 ls
+  113  мар 06 18:13:16 cd etc
+  114  мар 06 18:13:19 /ls
+  115  мар 06 18:13:20 ls
+  116  мар 06 18:13:28 cd apache2
+  117  мар 06 18:13:37 cd sites-available
+  118  мар 06 18:13:42 ls
+  119  мар 06 18:14:06 cat erha1.conf
+  120  мар 06 18:16:14 gedit erha1.conf
+  121  мар 06 18:16:39 nano erha1.conf
+  122  мар 06 18:17:47 mc
+  123  мар 06 18:18:09 nano erha2.conf
+  124  мар 06 18:18:55 cd ../..
+  125  мар 06 18:19:00 cd ..
+  126  мар 06 18:19:22 cd var/www
+  127  мар 06 18:19:32 cd html/erha1
+  128  мар 06 18:19:37 ls -la
+  129  мар 06 18:19:45 nano index.html
+  130  мар 06 18:20:12 cd ..
+  131  мар 06 18:20:17 cd erha2
+  132  мар 06 18:20:25 nano index.html
+  133  мар 06 18:21:05 cd ../..
+  134  мар 06 18:21:08 cd ..
+  135  мар 06 18:21:42 cd /etc/apache2/sites-available
+  136  мар 06 18:21:52 nano erha1.conf
+  137  мар 06 18:23:06 nano erha2.conf
+  138  мар 06 18:24:44 a2ensite tsite1ru.conf
+  139  мар 06 18:24:52 a2ensite erha1.conf
+  140  мар 06 18:26:19 systemctl reload apache2
+  141  мар 06 18:28:46 ls
+  142  мар 06 18:28:55 mc
+  143  мар 06 19:17:15 nano erha1.conf
+  144  мар 06 19:22:04 systemctl reload apache2
+  145  мар 06 19:23:53 a2ensite erha2.conf
+  146  мар 06 19:23:57 systemctl reload apache2
+  147  мар 06 19:24:23 rm -f erha2.conf
+  148  мар 06 19:24:25 ls
+  149  мар 06 19:24:42 cd ../..
+  150  мар 06 19:24:45 cd ..
+  151  мар 06 19:24:47 ls
+  152  мар 06 19:24:56 cd var
+  153  мар 06 19:24:58 ls
+  154  мар 06 19:25:07 cd www/html
+  155  мар 06 19:25:17 rm -f erha2
+  156  мар 06 19:25:19 ls
+  157  мар 06 19:26:25 rm -R erha2
+  158  мар 06 19:26:29 ls
+  159  мар 06 19:26:34 cd ../..
+  160  мар 06 19:26:37 cd ..
+  161  мар 06 19:29:27 systemctl reload apache2
+  162  мар 06 19:32:05 cd/var/www/html/erha1
+  163  мар 06 19:32:14 cd /var/www/html/erha1
+  164  мар 06 19:32:25 ls
+  165  мар 06 19:32:32 nano index.html
+  166  мар 06 19:36:54 nano index.php
+  167  мар 06 19:37:27 systemctl reload apache2
+  168  мар 06 19:37:50 cd ../..
+  169  мар 06 19:38:10 mc
+  170  мар 06 19:39:35 cd /var/www/html/erha1
+  171  мар 06 19:39:41 nano erha1.php
+  172  мар 06 19:39:53 ls
+  173  мар 06 19:40:30 rm index.html
+  174  мар 06 19:40:38 nano index.php
+  175  мар 06 19:40:55 cm
+  176  мар 06 19:40:57 mc
+  177  мар 06 19:43:14 a2ensite erha1.php
+  178  мар 06 19:44:14 nano erha1.php
+  179  мар 06 19:44:21 ls
+  180  мар 06 19:44:29 nano index.php
+  181  мар 06 19:45:03 a2ensite erha1.conf
+  182  мар 06 19:45:14 systemctl reload apache2
+  183  мар 06 19:46:17 nano index.php
+  184  мар 06 19:46:56 nani index.php
+  185  мар 06 19:47:00 nano index.php
+  186  мар 06 19:49:04 a2ensite erha1.conf
+  187  мар 06 19:49:08 systemctl reload apache2
+  188  мар 06 19:49:40 nano index.php
+  189  мар 06 19:50:02 a2ensite erha1.conf
+  190  мар 06 19:50:04 systemctl reload apache2
+  191  мар 06 19:51:02 nano index.php
+  192  мар 06 19:51:19 a2ensite erha1.conf
+  193  мар 06 19:51:21 systemctl reload apache2
+  194  мар 06 19:52:00 nano index.php
+  195  мар 06 19:53:21 a2ensite erha1.conf
+  196  мар 06 19:53:23 systemctl reload apache2
+  197  мар 06 20:16:02 ifconfig
+  198  мар 06 20:18:22 netstat -nlp
+  199  мар 06 18:43:07 mc
+  200  мар 08 10:50:38 iptables -A INPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
+  201  мар 08 10:50:44 iptables -A INPUT -m conntrack --ctstate RELATED -j ACCEPT
+  202  мар 08 10:50:50 iptables -A INPUT -i ens3 -p tcp --dport 80 -j ACCEPT
+  203  мар 08 10:50:54 iptables -A INPUT -i ens3 -p tcp --dport 443 -j ACCEPT
+  204  мар 08 10:50:59 iptables -A INPUT -i ens3 -p tcp --dport 22 -j ACCEPT
+  205  мар 08 10:51:04 iptables -A INPUT -i ens3 -p tcp -j DROP
+  206  мар 08 10:54:29 iptables-save
+  207  мар 08 10:57:18 cm
+  208  мар 08 10:57:19 mc
+  209  мар 08 10:57:36 cd /etc
+  210  мар 08 10:57:37 mc
+  211  мар 08 10:58:36 cd ..
+  212  мар 08 10:59:07 iptables-save > /etc/iptables/iptables.today
+  213  мар 08 11:14:11 apt-get install git
+  214  мар 08 11:15:01 cd /pojects
+  215  мар 08 11:15:04 ls
+  216  мар 08 11:15:40 mkdir projects
+  217  мар 08 11:15:43 ls
+  218  мар 08 11:15:51 cd  projects 
+  219  мар 08 11:15:56 git init
+  220  мар 08 11:17:04 cd .git
+  221  мар 08 11:17:32 mkdir bashhistory
+  222  мар 08 11:17:33 ls
+  223  мар 08 11:21:19 rmdir bashhistory
+  224  мар 08 11:21:22 cd ..
+  225  мар 08 11:21:52 git add .
+  226  мар 08 11:21:55 ls
+  227  мар 08 11:22:08 ls -la
+  228  мар 08 11:23:24 rmdir .
+  229  мар 08 11:23:56 git add README.md
+  230  мар 08 11:24:35 cd ...
+  231  мар 08 11:24:37 cd ..
+  232  мар 08 11:24:51 rm -R projects
+  233  мар 08 11:25:03 echo "# erhabtlpp" >> README.md
+  234  мар 08 11:25:29 mkdir projects
+  235  мар 08 11:25:34 cd projects
+  236  мар 08 11:25:40 git init
+  237  мар 08 11:25:50 git add README.md
+  238  мар 08 11:26:34 nano README.md
+  239  мар 08 11:26:37 ls
+  240  мар 08 11:26:40 ls -la
+  241  мар 08 11:26:49 nano README.md
+  242  мар 08 11:27:01 ls
+  243  мар 08 11:27:09 gir add README.md
+  244  мар 08 11:27:24 git add README.md
+  245  мар 08 11:27:31 git commit -m "first commit"
+  246  мар 08 11:28:36 git branch -M main
+  247  мар 08 11:28:41 git remote add origin https://github.com/namjuniayo/erhabtlpp.git
+  248  мар 08 11:28:45 git push -u origin main
+  249  мар 08 11:32:34 git remote add origin git@github.com:namjuniayo/erhabtlpp.git
+  250  мар 08 11:32:51 git push -u origin main
+  251  мар 08 11:33:24 git@github.com:namjuniayo/erhabtlpp.git
+  252  мар 08 11:35:00 cd ..
+  253  мар 08 11:35:05 rm -R projects
+  254  мар 08 11:36:11 git --version
+  255  мар 08 11:37:39 ls -al ~/.ssh
+  256  мар 08 11:39:00 ssh-keygen -t ed25519 -Cssh-keygen -t ed25519 -C "karasikimchi@yandex.ru"
+  257  мар 08 11:39:47 ls -la ~/.ssh
+  258  мар 08 11:43:25 ls -la
+  259  мар 08 11:43:41 cd ~/.shh
+  260  мар 08 11:44:10 cd ~/.ssh
+  261  мар 08 11:44:14 ls
+  262  мар 08 11:44:23 mc
+  263  мар 08 11:44:49 nano id_ed25519.pub
+  264  мар 08 11:47:34 cd ..
+  265  мар 08 11:47:51 mkdir project
+  266  мар 08 11:47:56 cd  project
+  267  мар 08 11:48:46 git clone  project
+  268  мар 08 11:49:12 git --version
+  269  мар 08 11:49:23 git clone 
+  270  мар 08 11:49:23 root@erha:~/project#
+  271  мар 08 11:49:54 ls
+  272  мар 08 11:50:07 git clone git@github.com:namjuniayo/erhabtlpp.git
+  273  мар 08 11:50:38 ls
+  274  мар 08 11:51:08 pip --version
+  275  мар 08 11:52:53 ls
+  276  мар 08 11:53:02 cd erhabtlpp
+  277  мар 08 11:53:23 nano test.txt
+  278  мар 08 11:53:31 ls
+  279  мар 08 11:54:42 git add --all
+  280  мар 08 11:54:57 git commit -am "test"
+  281  мар 08 11:55:06 git push
+  282  мар 08 11:55:46 rmdir test.txt
+  283  мар 08 11:55:48 ls
+  284  мар 08 11:56:01 rm -R test.txt
+  285  мар 08 11:56:03 ls
+  286  мар 08 11:56:20 mkdir bashhistory
+  287  мар 08 11:56:36 cd bashhistory
+  288  мар 08 11:57:11 history >> file.txt
+  289  мар 08 11:57:12 ls
+  290  мар 08 11:57:21 mc
+  291  мар 08 11:57:57 mr -R file.txt
+  292  мар 08 11:58:15 rm file.txt
+  293  мар 08 11:58:35 history >> history.txt
