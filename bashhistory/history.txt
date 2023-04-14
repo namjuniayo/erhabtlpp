@@ -197,97 +197,211 @@
   197  мар 06 20:16:02 ifconfig
   198  мар 06 20:18:22 netstat -nlp
   199  мар 06 18:43:07 mc
-  200  мар 08 10:50:38 iptables -A INPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
-  201  мар 08 10:50:44 iptables -A INPUT -m conntrack --ctstate RELATED -j ACCEPT
-  202  мар 08 10:50:50 iptables -A INPUT -i ens3 -p tcp --dport 80 -j ACCEPT
-  203  мар 08 10:50:54 iptables -A INPUT -i ens3 -p tcp --dport 443 -j ACCEPT
-  204  мар 08 10:50:59 iptables -A INPUT -i ens3 -p tcp --dport 22 -j ACCEPT
-  205  мар 08 10:51:04 iptables -A INPUT -i ens3 -p tcp -j DROP
-  206  мар 08 10:54:29 iptables-save
-  207  мар 08 10:57:18 cm
-  208  мар 08 10:57:19 mc
-  209  мар 08 10:57:36 cd /etc
-  210  мар 08 10:57:37 mc
-  211  мар 08 10:58:36 cd ..
-  212  мар 08 10:59:07 iptables-save > /etc/iptables/iptables.today
-  213  мар 08 11:14:11 apt-get install git
-  214  мар 08 11:15:01 cd /pojects
-  215  мар 08 11:15:04 ls
-  216  мар 08 11:15:40 mkdir projects
-  217  мар 08 11:15:43 ls
-  218  мар 08 11:15:51 cd  projects 
-  219  мар 08 11:15:56 git init
-  220  мар 08 11:17:04 cd .git
-  221  мар 08 11:17:32 mkdir bashhistory
-  222  мар 08 11:17:33 ls
-  223  мар 08 11:21:19 rmdir bashhistory
-  224  мар 08 11:21:22 cd ..
-  225  мар 08 11:21:52 git add .
-  226  мар 08 11:21:55 ls
-  227  мар 08 11:22:08 ls -la
-  228  мар 08 11:23:24 rmdir .
-  229  мар 08 11:23:56 git add README.md
-  230  мар 08 11:24:35 cd ...
-  231  мар 08 11:24:37 cd ..
-  232  мар 08 11:24:51 rm -R projects
-  233  мар 08 11:25:03 echo "# erhabtlpp" >> README.md
-  234  мар 08 11:25:29 mkdir projects
-  235  мар 08 11:25:34 cd projects
-  236  мар 08 11:25:40 git init
-  237  мар 08 11:25:50 git add README.md
-  238  мар 08 11:26:34 nano README.md
-  239  мар 08 11:26:37 ls
-  240  мар 08 11:26:40 ls -la
-  241  мар 08 11:26:49 nano README.md
-  242  мар 08 11:27:01 ls
-  243  мар 08 11:27:09 gir add README.md
-  244  мар 08 11:27:24 git add README.md
-  245  мар 08 11:27:31 git commit -m "first commit"
-  246  мар 08 11:28:36 git branch -M main
-  247  мар 08 11:28:41 git remote add origin https://github.com/namjuniayo/erhabtlpp.git
-  248  мар 08 11:28:45 git push -u origin main
-  249  мар 08 11:32:34 git remote add origin git@github.com:namjuniayo/erhabtlpp.git
-  250  мар 08 11:32:51 git push -u origin main
-  251  мар 08 11:33:24 git@github.com:namjuniayo/erhabtlpp.git
-  252  мар 08 11:35:00 cd ..
-  253  мар 08 11:35:05 rm -R projects
-  254  мар 08 11:36:11 git --version
-  255  мар 08 11:37:39 ls -al ~/.ssh
-  256  мар 08 11:39:00 ssh-keygen -t ed25519 -Cssh-keygen -t ed25519 -C "karasikimchi@yandex.ru"
-  257  мар 08 11:39:47 ls -la ~/.ssh
-  258  мар 08 11:43:25 ls -la
-  259  мар 08 11:43:41 cd ~/.shh
-  260  мар 08 11:44:10 cd ~/.ssh
-  261  мар 08 11:44:14 ls
-  262  мар 08 11:44:23 mc
-  263  мар 08 11:44:49 nano id_ed25519.pub
-  264  мар 08 11:47:34 cd ..
-  265  мар 08 11:47:51 mkdir project
-  266  мар 08 11:47:56 cd  project
-  267  мар 08 11:48:46 git clone  project
-  268  мар 08 11:49:12 git --version
-  269  мар 08 11:49:23 git clone 
-  270  мар 08 11:49:23 root@erha:~/project#
-  271  мар 08 11:49:54 ls
-  272  мар 08 11:50:07 git clone git@github.com:namjuniayo/erhabtlpp.git
-  273  мар 08 11:50:38 ls
-  274  мар 08 11:51:08 pip --version
-  275  мар 08 11:52:53 ls
-  276  мар 08 11:53:02 cd erhabtlpp
-  277  мар 08 11:53:23 nano test.txt
-  278  мар 08 11:53:31 ls
-  279  мар 08 11:54:42 git add --all
-  280  мар 08 11:54:57 git commit -am "test"
-  281  мар 08 11:55:06 git push
-  282  мар 08 11:55:46 rmdir test.txt
-  283  мар 08 11:55:48 ls
-  284  мар 08 11:56:01 rm -R test.txt
-  285  мар 08 11:56:03 ls
-  286  мар 08 11:56:20 mkdir bashhistory
-  287  мар 08 11:56:36 cd bashhistory
-  288  мар 08 11:57:11 history >> file.txt
-  289  мар 08 11:57:12 ls
-  290  мар 08 11:57:21 mc
-  291  мар 08 11:57:57 mr -R file.txt
-  292  мар 08 11:58:15 rm file.txt
-  293  мар 08 11:58:35 history >> history.txt
+  200  мар 08 08:53:12 iptables -A INPUT -i ens3 -p tcp --dropt 3306 -j DROP
+  201  мар 08 08:58:48 iptables -A INPUT -i ens3 -p tcp  --dropt 3306 -j DROP
+  202  мар 08 08:59:00 iptables -A INPUT -i ens3 -p tcp  --dport
+  203  мар 08 08:59:19 iptables -A INPUT -i ens3 -p tcp  --dport 3306 -j DROP
+  204  мар 08 12:09:18 OB
+  205  мар 08 10:50:38 iptables -A INPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
+  206  мар 08 10:50:44 iptables -A INPUT -m conntrack --ctstate RELATED -j ACCEPT
+  207  мар 08 10:50:50 iptables -A INPUT -i ens3 -p tcp --dport 80 -j ACCEPT
+  208  мар 08 10:50:54 iptables -A INPUT -i ens3 -p tcp --dport 443 -j ACCEPT
+  209  мар 08 10:50:59 iptables -A INPUT -i ens3 -p tcp --dport 22 -j ACCEPT
+  210  мар 08 10:51:04 iptables -A INPUT -i ens3 -p tcp -j DROP
+  211  мар 08 10:54:29 iptables-save
+  212  мар 08 10:57:18 cm
+  213  мар 08 10:57:19 mc
+  214  мар 08 10:57:36 cd /etc
+  215  мар 08 10:57:37 mc
+  216  мар 08 10:58:36 cd ..
+  217  мар 08 10:59:07 iptables-save > /etc/iptables/iptables.today
+  218  мар 08 11:14:11 apt-get install git
+  219  мар 08 11:15:01 cd /pojects
+  220  мар 08 11:15:04 ls
+  221  мар 08 11:15:40 mkdir projects
+  222  мар 08 11:15:43 ls
+  223  мар 08 11:15:51 cd  projects 
+  224  мар 08 11:15:56 git init
+  225  мар 08 11:17:04 cd .git
+  226  мар 08 11:17:32 mkdir bashhistory
+  227  мар 08 11:17:33 ls
+  228  мар 08 11:21:19 rmdir bashhistory
+  229  мар 08 11:21:22 cd ..
+  230  мар 08 11:21:52 git add .
+  231  мар 08 11:21:55 ls
+  232  мар 08 11:22:08 ls -la
+  233  мар 08 11:23:24 rmdir .
+  234  мар 08 11:23:56 git add README.md
+  235  мар 08 11:24:35 cd ...
+  236  мар 08 11:24:37 cd ..
+  237  мар 08 11:24:51 rm -R projects
+  238  мар 08 11:25:03 echo "# erhabtlpp" >> README.md
+  239  мар 08 11:25:29 mkdir projects
+  240  мар 08 11:25:34 cd projects
+  241  мар 08 11:25:40 git init
+  242  мар 08 11:25:50 git add README.md
+  243  мар 08 11:26:34 nano README.md
+  244  мар 08 11:26:37 ls
+  245  мар 08 11:26:40 ls -la
+  246  мар 08 11:26:49 nano README.md
+  247  мар 08 11:27:01 ls
+  248  мар 08 11:27:09 gir add README.md
+  249  мар 08 11:27:24 git add README.md
+  250  мар 08 11:27:31 git commit -m "first commit"
+  251  мар 08 11:28:36 git branch -M main
+  252  мар 08 11:28:41 git remote add origin https://github.com/namjuniayo/erhabtlpp.git
+  253  мар 08 11:28:45 git push -u origin main
+  254  мар 08 11:32:34 git remote add origin git@github.com:namjuniayo/erhabtlpp.git
+  255  мар 08 11:32:51 git push -u origin main
+  256  мар 08 11:33:24 git@github.com:namjuniayo/erhabtlpp.git
+  257  мар 08 11:35:00 cd ..
+  258  мар 08 11:35:05 rm -R projects
+  259  мар 08 11:36:11 git --version
+  260  мар 08 11:37:39 ls -al ~/.ssh
+  261  мар 08 11:39:00 ssh-keygen -t ed25519 -Cssh-keygen -t ed25519 -C "karasikimchi@yandex.ru"
+  262  мар 08 11:39:47 ls -la ~/.ssh
+  263  мар 08 11:43:25 ls -la
+  264  мар 08 11:43:41 cd ~/.shh
+  265  мар 08 11:44:10 cd ~/.ssh
+  266  мар 08 11:44:14 ls
+  267  мар 08 11:44:23 mc
+  268  мар 08 11:44:49 nano id_ed25519.pub
+  269  мар 08 11:47:34 cd ..
+  270  мар 08 11:47:51 mkdir project
+  271  мар 08 11:47:56 cd  project
+  272  мар 08 11:48:46 git clone  project
+  273  мар 08 11:49:12 git --version
+  274  мар 08 11:49:23 git clone 
+  275  мар 08 11:49:23 root@erha:~/project#
+  276  мар 08 11:49:54 ls
+  277  мар 08 11:50:07 git clone git@github.com:namjuniayo/erhabtlpp.git
+  278  мар 08 11:50:38 ls
+  279  мар 08 11:51:08 pip --version
+  280  мар 08 11:52:53 ls
+  281  мар 08 11:53:02 cd erhabtlpp
+  282  мар 08 11:53:23 nano test.txt
+  283  мар 08 11:53:31 ls
+  284  мар 08 11:54:42 git add --all
+  285  мар 08 11:54:57 git commit -am "test"
+  286  мар 08 11:55:06 git push
+  287  мар 08 11:55:46 rmdir test.txt
+  288  мар 08 11:55:48 ls
+  289  мар 08 11:56:01 rm -R test.txt
+  290  мар 08 11:56:03 ls
+  291  мар 08 11:56:20 mkdir bashhistory
+  292  мар 08 11:56:36 cd bashhistory
+  293  мар 08 11:57:11 history >> file.txt
+  294  мар 08 11:57:12 ls
+  295  мар 08 11:57:21 mc
+  296  мар 08 11:57:57 mr -R file.txt
+  297  мар 08 11:58:15 rm file.txt
+  298  мар 08 11:58:35 history >> history.txt
+  299  мар 08 11:58:37 ls
+  300  мар 08 11:58:40 cd ..
+  301  мар 08 11:59:13 mkdir firewall sites mysql
+  302  мар 08 11:59:15 ls
+  303  мар 08 11:59:26 cl sites
+  304  мар 08 11:59:29 cd sites
+  305  мар 08 11:59:50 mkdir apache2  erha1
+  306  мар 08 11:59:52 ls
+  307  мар 08 11:59:55 cd ..
+  308  мар 08 12:02:04 iptables-save >iptables_rules2.ipv4
+  309  мар 08 12:02:07 ls
+  310  мар 08 12:03:19 mv iptables_rules2.ipv4 firewall/iptables_rules2.ipv4
+  311  мар 08 12:03:21 ls
+  312  мар 08 12:03:30 cd firewall
+  313  мар 08 12:03:31 ls
+  314  мар 08 12:03:35 cd ..
+  315  мар 08 12:04:42 cd sites
+  316  мар 08 12:06:06 cd ../..
+  317  мар 08 12:06:07 cd ..
+  318  мар 08 12:06:09 ls
+  319  мар 08 12:06:18 ls -la
+  320  мар 08 12:06:21 cd..
+  321  мар 08 12:06:24 mc
+  322  мар 08 12:15:56 exit
+  323  мар 08 12:20:17 cd ..
+  324  мар 08 12:20:25 cd project
+  325  мар 08 12:20:29 ls
+  326  мар 08 12:20:34 cd erhabtlpp
+  327  мар 08 12:20:36 ls
+  328  мар 08 12:20:39 cd mysql
+  329  мар 08 12:20:53 mysqldump dump.sql
+  330  мар 08 12:21:20 s
+  331  мар 08 12:21:21 ls
+  332  мар 08 12:22:58 mc
+  333  мар 08 12:26:55 cd ../..
+  334  мар 08 12:26:57 cd ..
+  335  мар 08 12:27:07 ls
+  336  мар 08 12:27:10 cd etc
+  337  мар 08 12:27:16 ls -la
+  338  мар 08 12:27:42 cd mysql
+  339  мар 08 12:27:50 ls
+  340  мар 08 12:28:37 cd ../..
+  341  мар 08 12:28:39 ls
+  342  мар 08 12:28:45 cd project
+  343  мар 08 12:28:51 ls
+  344  мар 08 12:28:56 cd erhabtlpp
+  345  мар 08 12:29:04 sd mysql
+  346  мар 08 12:29:09 cd mysql
+  347  мар 08 12:29:47 cp /etc/mysql/my.cnf /project/erhabtlpp/mysql
+  348  мар 08 12:29:49 ls
+  349  мар 08 12:29:54 cd ../..
+  350  мар 08 12:30:12 git add --all
+  351  мар 08 12:30:36 ls
+  352  мар 08 12:30:42 cd erhabtlpp
+  353  мар 08 12:30:48 git add --all
+  354  мар 08 12:31:04 git commit -am "first job"
+  355  мар 08 12:31:10 git push
+  356  мар 08 08:51:19 iptables -L
+  357  мар 08 10:55:21 mc
+  358  мар 09 08:39:21 cat /proc/cpuinfo 
+  359  мар 09 08:40:05 htop
+  360  мар 09 08:40:36 mc
+  361  мар 09 08:43:44 mysql -v
+  362  мар 09 08:44:34 apache2 -v
+  363  мар 09 08:45:48 зрз -м
+  364  мар 09 08:45:51 php -v
+  365  мар 09 08:50:26 iptables -v
+  366  мар 09 14:52:15 last
+  367  апр 13 13:15:55 passwd storm
+  368  апр 13 13:15:59 mc
+  369  апр 13 13:22:03 mysql
+  370  апр 13 14:52:09 mysql -uroot -p
+  371  апр 13 14:59:00 mysql
+  372  апр 13 15:05:46 mc
+  373  апр 13 15:06:14 mysql
+  374  апр 13 15:07:47 mc
+  375  апр 13 15:08:32 mysql
+  376  апр 13 15:34:01 mc
+  377  апр 13 15:38:48 mysql
+  378  апр 13 14:58:12 LS
+  379  апр 13 14:58:34 ls
+  380  апр 13 14:58:57 cd /home/erha/mysql_file
+  381  апр 13 14:59:00 ls
+  382  апр 13 14:59:53 mysql -u root -p ErhaDatabase </home/erha/mysql_file/pp.sql
+  383  апр 13 15:05:03 mysql -u root -p
+  384  апр 13 15:10:31 mysql -u root -p ErhaDatabase </home/erha/mysql_file/pp.sql
+  385  апр 13 15:10:51 mysql -u root -p ErhaDataBase </home/erha/mysql_file/pp.sql
+  386  апр 13 15:13:34 mysql -u root -p ErhaDaraBase < зз.sql
+  387  апр 13 15:13:49 mysql -u root -p ErhaDaraBase < pp.sql
+  388  апр 13 15:16:15 mysql -u root -p
+  389  апр 13 15:52:37 mysql> mysqldump -u username -p your_database_name | gzip -c your_file.sql.gz
+  390  апр 13 15:54:06 LS
+  391  апр 13 15:54:07 ls
+  392  апр 13 15:54:26 cd mysqldump
+  393  апр 13 15:57:58 mysqldump -u root -p mydb | gzip > /home/erha/mysql_file/erhadamp.sql.gz
+  394  апр 13 15:58:24 ls
+  395  апр 13 16:01:43 rm mysqldump
+  396  апр 13 16:01:46 ls
+  397  апр 13 16:03:53 mysql -u root -p
+  398  апр 14 15:37:49 ysqldump -u root -p> /path/to/file/dump.sql
+  399  апр 14 15:38:22 mysqldump -u root -p erha_db | gzip > /home/mysql_file/outputfile.sql.gz
+  400  апр 14 15:39:00 cd /home
+  401  апр 14 15:39:02 ls
+  402  апр 14 15:39:10 cd erha
+  403  апр 14 15:39:12 ls
+  404  апр 14 15:39:18 cd mysql_file
+  405  апр 14 15:39:58 LS
+  406  апр 14 15:40:00 ls
+  407  апр 14 15:43:15 history >> history.txt
