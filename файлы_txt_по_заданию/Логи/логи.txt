@@ -1,0 +1,4 @@
+Были просммотрены логи по пути /var/log/
+Логи под названием: syslog.2.gz, syslog.3.gz, syslog.4.gz, syslog.5.gz, syslog.6.gz, syslog.7.gz, auth.log
+Так-же были просмотрены следующие логи, путь которых /var/log/mysql:   error.log.1.gz  error.log.2.gz  error.log.3.gz  error.log.4.gz  error.log.5.gz  error.log.6.gz  error.log.7.gz
+Содержание логов: в основном очистка файлов php , ошибки отсутствовали , поэтому никаких мер предпринимать не надо. Так-же были данные о том, кто осуществлял вход на сервер.

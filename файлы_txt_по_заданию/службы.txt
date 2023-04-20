@@ -1,0 +1,37 @@
+
+systemctl list-units --type service --state running
+
+ UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service     loaded active running Accounts Service
+  apache2.service             loaded active running The Apache HTTP Server
+  clamav-freshclam.service    loaded active running ClamAV virus database updater
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  getty@tty1.service          loaded active running Getty on tty1
+  mysql.service               loaded active running MySQL Community Server
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  qemu-guest-agent.service    loaded active running QEMU Guest Agent
+  rsyslog.service             loaded active running System Logging Service
+  ssh.service                 loaded active running OpenBSD Secure Shell server
+  systemd-journald.service    loaded active running Journal Service
+  systemd-logind.service      loaded active running Login Service
+  systemd-resolved.service    loaded active running Network Name Resolution
+  systemd-timesyncd.service   loaded active running Network Time Synchronization
+  systemd-udevd.service       loaded active running udev Kernel Device Manager
+  user@0.service              loaded active running User Manager for UID 0
+  user@1000.service           loaded active running User Manager for UID 1000
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+18 loaded units listed.
+
+
+ systemctl list-units --type service --state failed
+
+
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+0 loaded units listed.
+
+
