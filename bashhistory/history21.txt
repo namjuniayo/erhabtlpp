@@ -1,0 +1,167 @@
+    1  мар 02 03:36:03 ip r
+    2  мар 02 08:56:10 lscpu
+    3  мар 02 08:57:04 lshv
+    4  мар 02 08:57:09 lshw
+    5  мар 02 08:58:21 Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+    6  мар 02 09:04:42 cat /proc/cpuinfo | grep processor | wc -l
+    7  мар 02 09:07:37 free
+    8  мар 02 09:07:58 free -g
+    9  мар 02 09:08:05 free -m
+   10  мар 02 09:12:13 ва -р
+   11  мар 02 09:12:19 df -h
+   12  мар 02 09:16:03 ping 192.168.0.105
+   13  мар 02 09:18:15 iperf -s
+   14  мар 02 09:19:16 list
+   15  мар 02 09:19:26 ls
+   16  мар 02 09:24:53 clear
+   17  мар 02 09:24:57 cat /sys/class/net/enp1s0/speed
+   18  мар 02 09:25:35 sudo ethtool eth0 | grep Speed
+   19  мар 02 09:31:14 dmesg | grep <Ethernet controller> | grep up
+   20  мар 02 09:31:27 dmesg
+   21  мар 02 09:31:41 clear
+   22  мар 02 09:32:03 ipconfig -a
+   23  мар 02 09:32:22 ifconfig -a
+   24  мар 02 09:32:54 ip link show
+   25  мар 02 09:33:33 ls /sys/class/net
+   26  мар 02 09:34:01 dmesg | grep <ens3> | grep up
+   27  мар 02 09:34:40 dmesg grep <ens3>
+   28  мар 02 09:36:09 ethtool ens3
+   29  мар 02 09:37:33 dmesg |grep ens3 
+   30  мар 02 09:37:46 dmesg |grep ens3
+   31  мар 02 09:37:59 dmesg |grep lo
+   32  мар 02 12:52:27 sudo -i
+   33  мар 02 22:29:42 mkdir /var/www/html
+   34  мар 02 22:29:52 /var/www
+   35  мар 02 22:30:00 ls
+   36  мар 02 22:30:05 cd var
+   37  мар 02 22:30:50 ls -d
+   38  мар 02 22:37:23 mkdir var
+   39  мар 02 22:37:26 cd var
+   40  мар 02 22:37:49 mkdir www/html/test1ru
+   41  мар 02 22:38:05 mkdir www/html
+   42  мар 02 22:38:15 mkdir www/html/
+   43  мар 02 22:38:21 mkdir www
+   44  мар 02 22:38:25 cd www
+   45  мар 02 22:38:38 mkdir html
+   46  мар 02 22:38:44 cd html
+   47  мар 02 22:39:35 mkdir tsite1ru
+   48  мар 02 22:39:45 mkdir tsite2ru
+   49  мар 02 22:40:04 mkdir index.html
+   50  мар 02 22:41:27 cat index.html
+   51  мар 02 22:41:40 ls
+   52  мар 02 22:42:06 rmdir index.html
+   53  мар 02 22:42:10 ls
+   54  мар 02 22:44:16 nano index.html
+   55  мар 02 22:45:33 nano tsite1ru/index.html
+   56  мар 02 22:47:03 nano tsite2ru/index.html
+   57  мар 02 22:47:30 nano  tsite2ru/index.html
+   58  мар 02 22:48:08 nano tsite2ru/index.html
+   59  мар 02 22:48:50 chown -R www-data:www-data /var/www/html/tsite1ru
+   60  мар 02 22:48:57 cd..
+   61  мар 02 22:49:00 cd...
+   62  мар 02 22:49:01 ...cd
+   63  мар 02 22:49:03 ..cd
+   64  мар 02 22:49:08 cd..
+   65  мар 02 22:49:34 cd/
+   66  мар 02 22:49:52 cd ..
+   67  мар 02 22:49:56 cd ../..
+   68  мар 02 22:50:05 chown -R www-data:www-data /var/www/html/tsite1ru
+   69  мар 02 22:50:50 /var/www/html/tsite1ru
+   70  мар 02 22:51:01 chown -R www-data:www-data var/www/html/tsite1ru
+   71  мар 02 22:51:49 sudo -i
+   72  мар 06 16:47:08 4
+   73  мар 06 16:47:28 3
+   74  мар 06 16:50:17 chown -R www-data /var/www/html/tsite1ru
+   75  мар 06 16:43:10 ls -la
+   76  мар 06 16:43:32 cd var/www
+   77  мар 06 16:43:36 ls -la
+   78  мар 06 16:43:43 cd html
+   79  мар 06 16:43:47 ls -la
+   80  мар 06 16:44:34 -b
+   81  мар 06 16:45:19 sudo apt -y install mc
+   82  мар 06 16:46:19 -b, --nocolor
+   83  мар 06 16:46:24 -b --nocolor
+   84  мар 06 16:46:51 ьс
+   85  мар 06 16:46:53 mc
+   86  мар 06 16:53:07 cd ...
+   87  мар 06 16:53:13 cd..
+   88  мар 06 16:53:17 ..cd
+   89  мар 06 16:53:22 /cd
+   90  мар 06 16:53:23 cd/
+   91  мар 06 16:53:32 cd ../..
+   92  мар 06 16:53:49 cd ..
+   93  мар 06 16:53:52 cm
+   94  мар 06 16:54:31 chown -R www-data:www-data /var/www/html/tsite1ru
+   95  мар 06 16:54:39 ls -la
+   96  мар 06 16:54:52 chown -R www-data:www-data var/www/html/tsite1ru
+   97  мар 06 17:40:42 mkdir apache2
+   98  мар 06 17:41:06 mkdir sites-available
+   99  мар 06 17:41:32 mkdir 000-default.conf
+  100  мар 06 17:42:05 mkdir default-ssl.conf
+  101  мар 06 17:42:34 mkdir tsite1ru.conf tsite2ru.conf
+  102  мар 06 18:01:11 mv /var/www/html/tsite1ru /var/www/html/erha1
+  103  мар 06 17:36:56 chmod -R 755 /var/www/html/tsite1ru
+  104  мар 06 17:37:04 chmod -R 755 /var/www/html/tsite2ru
+  105  мар 06 17:38:02 mc
+  106  мар 06 17:39:15 mkdir /etc/apache2/sites-available
+  107  мар 06 17:39:41 mkdir etc/apache2/sites-available
+  108  мар 06 17:39:46 ls -al
+  109  мар 06 17:39:56 mkdir etc
+  110  мар 06 17:40:06 ls -la
+  111  мар 06 17:40:11 mc
+  112  мар 06 17:52:46 ls -la
+  113  мар 06 17:53:21 rmdir etc
+  114  мар 06 17:54:21 rm -R etc
+  115  мар 06 17:54:24 la -la
+  116  мар 06 17:54:33 sudo -i
+  117  мар 06 17:59:40 cm
+  118  мар 06 17:59:42 mc
+  119  мар 06 18:01:39 sudo -i
+  120  мар 08 12:15:58 ls
+  121  мар 08 12:16:03 cd ..
+  122  мар 08 12:16:05 ls
+  123  мар 08 12:16:10 cd erha
+  124  мар 08 12:16:12 ls
+  125  мар 08 12:16:14 cd var
+  126  мар 08 12:16:15 ks
+  127  мар 08 12:16:16 ls
+  128  мар 08 12:16:20 mc
+  129  мар 08 12:17:31 cd..
+  130  мар 08 12:17:33 cd ..
+  131  мар 08 12:17:36 ls
+  132  мар 08 12:17:38 cd ..
+  133  мар 08 12:17:40 ls
+  134  мар 08 12:17:55 cd project
+  135  мар 08 12:17:57 ls
+  136  мар 08 12:18:03 cd erhabtlpp
+  137  мар 08 12:18:42 ls
+  138  мар 08 12:18:47 cd ,ysql
+  139  мар 08 12:18:52 cd mysql
+  140  мар 08 12:19:09 mysqldump dump.sql
+  141  мар 08 12:19:11 ls
+  142  мар 08 12:19:38 sudo 
+  143  мар 08 12:19:38 mysqldump: Got error: 1045: Access denied for user 'erha'@'localhost' (using password: NO) when trying to connect
+  144  мар 08 12:19:48 sudo -i
+  145  апр 13 16:03:22 SUDO -I
+  146  апр 13 16:03:26 sudo -i
+  147  апр 14 09:02:21 mysql -u root -p
+  148  апр 14 09:02:56 sudo -i
+  149  апр 17 09:05:37 pip install mysql-connector
+  150  апр 17 09:05:49 sudo apt install python3-pip
+  151  апр 17 09:07:21 sudo -i
+  152  апр 18 09:01:21 mysql -u root -p 
+  153  апр 18 09:01:41 sudo -i
+  154  апр 19 14:07:08 ыгвщ -ш
+  155  апр 19 14:07:11 sudo -i
+  156  апр 19 15:05:05 sudi -i
+  157  апр 19 15:05:10 -i sudo
+  158  апр 19 15:05:14 root -i
+  159  апр 19 15:05:41 sudo -i
+  160  апр 20 10:04:53 crontab -e
+  161  апр 20 10:13:39 sudo -i
+  162  апр 20 13:36:20 SUDO -I
+  163  апр 20 13:36:23 sudo -i
+  164  апр 20 13:26:20 SUDO -I
+  165  апр 20 13:26:23 sudo -i
+  166  апр 21 16:22:26 cd /home/erha/mysql_file/
+  167  апр 21 16:22:38 history > history21.txt
